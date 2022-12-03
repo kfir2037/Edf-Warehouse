@@ -12,7 +12,7 @@ import NumberFormat from "react-number-format";
 // import { Icon } from "coinmarketcap-cryptocurrency-icons";
 // import LaunchIcon from "@material-ui/icons/Launch";
 import { ApiCall } from "../ApiCall";
-import ModalPopUp from "../Modal/ModalPopUp" 
+// import ModalPopUp from "../Modal/ModalPopUp" 
 
 //parent table that holds with mobile and desktop table components
 const TableContainer = () => {
@@ -220,12 +220,12 @@ const TableContainer = () => {
         </div>
       )}
 
-        <ModalPopUp 
+        {/* <ModalPopUp 
        
         IsMobile={IsMobile}
         CloseModal={CloseModal}
         OpnModal={OpnModal}
-        SelectedCrypto = {SelectedCrypto}/>
+        SelectedCrypto = {SelectedCrypto}/> */}
     </div>
   );
 };
